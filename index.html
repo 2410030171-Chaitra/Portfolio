@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en" data-theme="auto">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Chaitra — Portfolio</title>
+    <meta name="description" content="Personal portfolio showcasing projects, skills, and ways to get in touch." />
+
+    <!-- Open Graph / Twitter -->
+    <meta property="og:title" content="Chaitra — Portfolio" />
+    <meta property="og:description" content="Student passionate about software development — Projects, Skills, and Contact." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="assets/favicon.svg" />
+    <meta name="twitter:card" content="summary" />
+
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" id="top">
+      <div class="container header-inner">
+        <a class="brand" href="#top" aria-label="Homepage">YN<span>.</span></a>
+        <nav class="nav" aria-label="Primary">
+          <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle navigation">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </button>
+          <ul id="nav-menu" class="nav-menu">
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li>
+              <button id="theme-toggle" class="btn btn-ghost small" aria-pressed="false" aria-label="Toggle color theme">🌓</button>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section id="about" class="section section-hero">
+        <div class="container grid-2">
+          <div class="hero-text">
+            <h1>Hi, I'm <span class="accent">Chaitra</span></h1>
+            <p class="lead">
+              I'm a student passionate about software development and eager to learn new technologies.
+              Below you'll find a selection of my projects, the skills I'm building, and how to reach me.
+            </p>
+            <div class="cta-row">
+              <a class="btn" href="#projects">View Projects</a>
+              <a class="btn btn-ghost" href="#contact">Get in touch</a>
+            </div>
+            <ul class="social-list">
+              <li><a href="#" aria-label="GitHub">GitHub</a></li>
+              <li><a href="#" aria-label="LinkedIn">LinkedIn</a></li>
+              <li><a href="#" aria-label="Twitter / X">Twitter</a></li>
+            </ul>
+          </div>
+          <div class="hero-media">
+            <img src="assets/img/avatar.svg" alt="Illustration or avatar of Your Name" />
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="container">
+          <h2 class="section-title">Projects</h2>
+          <div class="cards">
+            <article class="card">
+              <div class="card-body">
+                <h3>Project One</h3>
+                <p>Brief description of what this project does and why it’s interesting. Mention your role and tech used.</p>
+                <ul class="tags">
+                  <li>TypeScript</li>
+                  <li>React</li>
+                  <li>Node</li>
+                </ul>
+              </div>
+              <div class="card-actions">
+                <a class="btn small" href="#" target="_blank" rel="noopener">Demo</a>
+                <a class="btn btn-ghost small" href="#" target="_blank" rel="noopener">Source</a>
+              </div>
+            </article>
+
+            <article class="card">
+              <div class="card-body">
+                <h3>Project Two</h3>
+                <p>Short summary. What problem does it solve? What impact or results did it have?</p>
+                <ul class="tags">
+                  <li>Python</li>
+                  <li>FastAPI</li>
+                  <li>Azure</li>
+                </ul>
+              </div>
+              <div class="card-actions">
+                <a class="btn small" href="#" target="_blank" rel="noopener">Demo</a>
+                <a class="btn btn-ghost small" href="#" target="_blank" rel="noopener">Source</a>
+              </div>
+            </article>
+
+            <article class="card">
+              <div class="card-body">
+                <h3>Project Three</h3>
+                <p>One-liner overview. Focus on outcomes, performance, or user value where possible.</p>
+                <ul class="tags">
+                  <li>Go</li>
+                  <li>PostgreSQL</li>
+                  <li>Docker</li>
+                </ul>
+              </div>
+              <div class="card-actions">
+                <a class="btn small" href="#" target="_blank" rel="noopener">Demo</a>
+                <a class="btn btn-ghost small" href="#" target="_blank" rel="noopener">Source</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section">
+        <div class="container">
+          <h2 class="section-title">Skills</h2>
+          <div class="skills-grid">
+            <div>
+              <h3>Languages</h3>
+              <ul class="badges">
+                <li>JavaScript</li>
+                <li>TypeScript</li>
+                <li>Python</li>
+                <li>Go</li>
+              </ul>
+            </div>
+            <div>
+              <h3>Frontend</h3>
+              <ul class="badges">
+                <li>React</li>
+                <li>Next.js</li>
+                <li>CSS</li>
+                <li>HTML</li>
+              </ul>
+            </div>
+            <div>
+              <h3>Backend</h3>
+              <ul class="badges">
+                <li>Node</li>
+                <li>MYSQL</li>
+                <li>MongoDB</li>
+              </ul>
+            </div>
+            <div>
+              <h3>Tools & DevOps</h3>
+              <ul class="badges">
+                <li>Git</li>
+                <li>Docker</li>
+                <li>CI/CD</li>
+                <li>Azure</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="container grid-2">
+          <div>
+            <h2 class="section-title">Contact</h2>
+            <p>Want to collaborate or have a question? Drop a message and I’ll get back to you.</p>
+            <ul class="contact-list">
+              <li>Email: <a id="contact-email-link" href="mailto:you@example.com">you@example.com</a></li>
+              <li>LinkedIn: <a href="#" target="_blank" rel="noopener">linkedin.com/in/yourusername</a></li>
+              <li>GitHub: <a href="#" target="_blank" rel="noopener">github.com/yourusername</a></li>
+            </ul>
+          </div>
+          <form id="contact-form" class="card form" data-email="you@example.com" novalidate>
+            <div class="form-row">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" autocomplete="name" placeholder="Your name" required />
+              <small class="error" data-for="name"></small>
+            </div>
+            <div class="form-row">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" autocomplete="email" placeholder="you@domain.com" required />
+              <small class="error" data-for="email"></small>
+            </div>
+            <div class="form-row">
+              <label for="subject">Subject</label>
+              <input id="subject" name="subject" type="text" placeholder="Let’s build something" required />
+              <small class="error" data-for="subject"></small>
+            </div>
+            <div class="form-row">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Hi! I’d like to chat about…" required></textarea>
+              <small class="error" data-for="message"></small>
+            </div>
+            <div class="form-actions">
+              <button class="btn" type="submit">Send message</button>
+              <p class="form-note">This sends an email draft via your default mail app. No data is stored.</p>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© <span id="year"></span> Your Name. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
